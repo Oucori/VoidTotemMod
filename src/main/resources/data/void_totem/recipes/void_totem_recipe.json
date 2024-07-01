@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "FFF",
+    "FEF",
+    "FFF"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "item": "void_totem:void_totem",
+    "count": 1
+  }
+}
