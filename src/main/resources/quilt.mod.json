@@ -11,11 +11,12 @@
                 "Gianni Bischoff": "Owner"
             },
             "contact": {},
-            "icon": "assets/example_mod/icon.png"
+            "icon": "assets/void_totem/icon.png"
         },
         "intermediate_mappings": "net.fabricmc:intermediary",
         "entrypoints": {
-            "init": "gg.wildblood.void_totem.VoidTotem"
+            "init": "gg.wildblood.void_totem.VoidTotem",
+						"client_init": "gg.wildblood.void_totem.VoidTotemClient"
         },
         "depends": [
             {

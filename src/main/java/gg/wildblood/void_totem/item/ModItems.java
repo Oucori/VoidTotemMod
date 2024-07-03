@@ -16,7 +16,6 @@ public class ModItems {
 
 	public static void register(ModContainer mod) {
 		Registry.register(Registries.ITEM, new Identifier(mod.metadata().id(), "void_totem"), VOID_TOTEM);
-		ClientPlayNetworking.registerGlobalReceiver(VoidTotemNetworkingConstants.PLAY_VOID_TOTEM_ANIM, VoidTotemItem::handleClientAnimationPlay);
 	}
 
 }
